@@ -7,3 +7,4 @@
 * [کۆدی پێشەوە](https://github.com/xxai-art/web)
 * [پاکێجی زمان بۆ سایتەکە بە گشتی](https://github.com/xxai-art/web/tree/main/i18n)
 * [پاکێجی زمان بۆ مۆدیولەکانی چوونەژوورەوە](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [بەڵگەنامەی فرە زمانی ماڵپەڕ](https://github.com/xxai-doc)

@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+پێشنیار دەکرێت سەرەتا nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) دابمەزرێنیت، و پاشان `direnv allow` دوای چوونە ژوورەوەی ناوەڕۆکەکە ( [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) بە شێوەیەکی ئۆتۆماتیکی جێبەجێ دەکرێت دوای چوونە ژوورەوەی ناوەڕۆکەکە).
 
-بەشێک لە کۆدی ماڵپەڕەکە سەرچاوە کراوە، بەخێربێن بۆ یارمەتیدانی باشترکردنی وەرگێڕانەکە.
+واتاکەی ئەوەیە: وەرگێڕانی چینی بۆ زمانی ژاپۆنی، کۆری، ئینگلیزی، ئینگلیزی بۆ هەموو زمانەکانی تر. ئەگەر تەنها دەتەوێت پشتگیری چینی و ئینگلیزی بکەیت، دەتوانیت تەنها بنووسیت `zh: en` .
 
-## کۆدی پێشەوە
+واتاکەی ئەوەیە: وەرگێڕانی چینی بۆ زمانی ژاپۆنی، کۆری، ئینگلیزی، ئینگلیزی بۆ هەموو زمانەکانی تر. ئەگەر تەنها دەتەوێت پشتگیری چینی و ئینگلیزی بکەیت، دەتوانیت تەنها بنووسیت `zh: en` .
 
 * [کۆدی پێشەوە](https://github.com/xxai-art/web)
 * [پاکێجی زمان بۆ سایتەکە بە گشتی](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@
 
 ### ڕێنماییەکانی ئۆتۆماتیکی وەرگێڕانی بەڵگەنامە
 
-سەیری کۆگاکە بکە [xxai-art/doc](https://github.com/xxai-art/doc)
+سەیری کۆگای کۆد بکە [xxai-art/doc](https://github.com/xxai-art/doc)
 
-پێشنیار دەکرێت سەرەتا nodejs و [direnv](https://direnv.net) و [bun](https://github.com/oven-sh/bun) دابمەزرێنیت، پاشان `direnv allow` جێبەجێ بکەیت دوای چوونە ژوورەوەی ناوەڕۆکەکە.
+پێشنیار دەکرێت سەرەتا nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) دابمەزرێنیت، و پاشان `direnv allow` دوای چوونە ژوورەوەی ناوەڕۆکەکە ( [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) بە شێوەیەکی ئۆتۆماتیکی جێبەجێ دەکرێت دوای چوونە ژوورەوەی ناوەڕۆکەکە).
 
-بۆ ئەوەی کۆگای زۆر گەورە نەبێت کە وەرگێڕدرابێتە سەر سەدان زمان، کۆگایەکی کۆدی جیاوازم بۆ هەر زمانێک دروستکرد و ڕێکخراوێکم دروستکرد بۆ هەڵگرتنی ئەم کۆگایە
+بۆ ئەوەی ئەو بنکە کۆدە گەورەیە نەمێنێت کە وەرگێڕدراوە بۆ سەدان زمان، بنکەیەکی کۆدی جیاوازم بۆ هەر زمانێک دروست کرد و ڕێکخراوێکم دروست کرد بۆ هەڵگرتنی بنکەی کۆدەکان
 
-ڕێکخستنی گۆڕاوەی ژینگە `GITHUB_ACCESS_TOKEN` و پاشان بەڕێوەبردنی [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) بە شێوەیەکی ئۆتۆماتیکی کۆگاکە دروست دەکات.
+ڕێکخستنی گۆڕاوەی ژینگە `GITHUB_ACCESS_TOKEN` و پاشان بەڕێوەبردنی [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) بە شێوەیەکی ئۆتۆماتیکی کۆگای کۆدەکان دروست دەکات.
 
-بێگومان دەتوانیت بیخەیتە کۆگایەکیشەوە.
+بێگومان دەتوانیت بیخەیتە ناو بنەمای کۆدەوە.
 
 ئاماژەی سکریپتی وەرگێڕان [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Google API بۆ وەرگێڕانی بێبەرامبەر بەکاردێت. ئەگ
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-سکریپتی وەرگێڕان کاشێکی وەرگێڕان لە ناوەڕۆکی `.i18n` دروست دەکات، تکایە بە `git status` پشکنینی بۆ بکە و زیاد بکە بۆ کۆگای کۆدەکان بۆ ئەوەی وەرگێڕان دووبارە نەبێتەوە.
+سکریپتی وەرگێڕانەکە کاشێکی وەرگێڕدراو لە ناوەڕۆکی `.i18n` دروست دەکات، تکایە بە `git status` پشکنین بکە و زیاد بکە بۆ کۆگای کۆدەکان بۆ ئەوەی وەرگێڕان دووبارە نەبێتەوە.
+
+تکایە هەر جارێک کە دەستکاری وەرگێڕانەکە دەکەیت `bunx i18n` جێبەجێ بکە بۆ نوێکردنەوەی کاشەکە.
+
+ئەگەر دەقی ئەسڵی و وەرگێڕانەکە لە یەک کاتدا دەستکاری بکرێن، کاشەکە تێکەڵ دەبێت، بۆیە ئەگەر بتەوێت دەستکاری بکەیت، تەنها دەتوانیت دەستکاری یەکێکیان بکەیت، پاشان `bunx i18n` جێبەجێ بکەیت بۆ نوێکردنەوەی کاشەکە.

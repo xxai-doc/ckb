@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) ، هەندێک تایبەتمەندی زیاد بکە لەسەر بنەمای ڕستەسازی coffeescript، سەیری [coffee_plus](./coffee_plus.md) بکە.
 
-* گۆڕاو ڕابگەیەنە
+## گۆڕاو ڕابگەیەنە
 
 ```
 + var1, var2
 ```
 
-* ناوی ڕاگەیاندن
+## ناوی ڕاگەیاندن
 
 `:$` بۆ بەکارهێنانە لەگەڵ [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* هاوردەکردنی خێرا
+## هاوردەکردنی خێرا
 
 ```
 > zx/globals:
